@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8f7f2;
+  padding: 30px;
+  color: #111;
+}
+
+.card {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  border: 5px solid #111;
+}
+
+.badge {
+  display: inline-block;
+  margin: 25px 0 0 25px;
+  background: #8b5cf6;
+  border: 4px solid #111;
+  padding: 10px 25px;
+  font-weight: bold;
+  box-shadow: 5px 5px #111;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 1.15;
+}
+
+.sub {
+  display: inline-block;
+  margin-top: 10px;
+  background: #eaff00;
+  border: 4px solid #111;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+.info {
+  width: 360px;
+  height: 120px;
+  border: 4px solid #111;
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  box-shadow: 5px 5px #111;
+}
+
+.icon {
+  width: 80px;
+  background: #8b5cf6;
+  border: 4px solid #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.info h3 {
+  font-size: 14px;
+}
+
+.info p {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 150px;
+  gap: 15px;
+  padding: 20px 25px;
+}
+
+.research,
+.impact {
+  border: 4px solid #111;
+  background: #fff;
+}
+
+.research h3 {
+  background: #8b5cf6;
+  border-bottom: 4px solid #111;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.research p {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.research ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.research li {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.study {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.step {
+  grid-column: 1 / -1;
+  background: #8b5cf6;
+  border: 4px solid #111;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+
+.phone {
+  height: 280px;
+  border: 5px solid #111;
+  border-radius: 18px;
+  padding: 25px 10px 10px;
+  position: relative;
+}
+
+.phone::before {
+  content: "";
+  width: 30px;
+  height: 4px;
+  background: #111;
+  position: absolute;
+  top: 10px;
+  left: 45%;
+}
+
+.phone h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.sale {
+  background: #8b5cf6;
+  color: white;
+  border: 3px solid #111;
+  padding: 12px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.icons span {
+  border: 3px solid #111;
+  padding: 8px;
+  text-align: center;
+  background: #f1f1f1;
+}
+
+.phone input {
+  width: 100%;
+  padding: 7px;
+  border: 3px solid #111;
+  margin-bottom: 12px;
+}
+
+.issues {
+  border: 3px solid #111;
+  padding: 10px;
+  background: #f8f8f8;
+}
+
+.issues h4 {
+  background: #ff6b00;
+  border: 3px solid #111;
+  padding: 6px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.issues p {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.green h4 {
+  background: #eaff00;
+}
+
+.impact {
+  padding: 10px;
+}
+
+.impact .step {
+  margin-bottom: 10px;
+}
+
+.impact div {
+  border-bottom: 2px solid #111;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.quote {
+  background: #eaff00;
+  border: 3px solid #111;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.process {
+  margin: 0 25px 25px;
+  border: 4px solid #111;
+  display: grid;
+  grid-template-columns: 120px repeat(5, 1fr);
+}
+
+.process div {
+  padding: 12px;
+  border-right: 3px solid #111;
+  font-size: 11px;
+}
+
+.process div:last-child {
+  border-right: none;
+}
+
+.process-title {
+  background: #8b5cf6;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.details {
+  border-top: 5px solid #111;
+  padding: 30px;
+}
+
+.details h2 {
+  margin-bottom: 15px;
+}
+
+.details p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+hr {
+  margin: 25px 0;
+  border: 1px dashed #aaa;
+}
